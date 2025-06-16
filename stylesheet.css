@@ -1,0 +1,91 @@
+/* Estilos para el contenedor de partículas */
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}       
+
+
+
+
+#particles-js {
+
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #000; /* Fondo negro */
+            z-index: -1; /* Para que quede detrás del contenido */
+        }
+        
+    .Tesla {
+            
+            text-align: center;
+            padding-top: 20vh; /* Centrado vertical */
+            position: relative;
+            
+            
+
+        }
+
+        /* Estilos para el contenido (texto) */
+       .Tesla h1 {
+
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding-top: 5vh; /* Centrado vertical */
+            margin: 0;
+            position: relative;
+            z-index: 1; /* Asegura que el texto esté sobre las partículas */
+        }
+        
+        .Tesla h2 {
+
+            color: white;
+        }
+
+        .Tesla img {
+
+            border-radius: 50%;
+            border: solid white 2px;
+        }
+
+
+        .Tesla nav ul li a {
+
+          color: white;
+          text-align: right;
+          height: 350px;
+          border-radius: 30%;
+          border: solid white 1px;
+
+        }
+
+
+        /*Liks*/
+
+        nav Menu-Princiapal {
+          
+          position: fixed; /* Fixa no topo */
+          display: flex;
+          padding: 1.2rem 2.5rem; 
+          flex-direction: row-reverse;
+        
+        }
+
+        nav ul li a {
+             
+          color: white;
+          text-align: right;
+          height: 550px;
+          border-radius: 30%;
+          border: solid white 1px;
+    
+        }
+
+        nav ul li a:hover { 
+
+            transform: scale(1.05);     /* Aumenta levemente */
+            background: rgba(255,255,255,0.1);
+        }
