@@ -11,7 +11,7 @@
 
 #particles-js {
 
-            position: absolute;
+            position: fixed;
             width: 100%;
             height: 100%;
             background-color: #000; /* Fondo negro */
@@ -89,3 +89,18 @@
             transform: scale(1.05);     /* Aumenta levemente */
             background: rgba(255,255,255,0.1);
         }
+
+
+
+
+      section a {
+        display: flex;
+        justify-content:;
+        width: 200px;
+        height: 300px;
+
+      };
+
+      section h2 {
+        color: white;
+      }
